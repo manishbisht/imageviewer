@@ -1,0 +1,49 @@
+div.show-image {
+	position: relative;
+}
+
+div.show-image:hover img{
+	opacity: 0.5;
+}
+
+#imagepreview{
+	width: 100%;max-height: 70%;
+}
+
+div.show-image:hover button{
+	position: absolute;
+	display: block;
+}
+
+div.show-image button{
+	display: none;
+}
+
+div.show-image:hover button#changebtn{
+	left: 5px;
+	top: 5px;
+}
+
+div.show-image:hover button#resetbtn{
+	right: 5px;
+	top: 5px;
+}
+button:hover{
+	background: white;
+	color: #1d3e81;
+}
+button{
+	background: #1d3e81;
+	color: white;
+}
+footer{
+	position: fixed;
+	bottom: 0;
+	background: #1d3e81;
+	width: 100%;
+	height: auto;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	color: white;
+	font-size: 20px;
+}

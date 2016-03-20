@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<info>
+    <id>imageviewer</id>
+    <name>Image Viewer</name>
+    <description>Owncloud Image Viewer</description>
+    <licence>AGPL</licence>
+    <author>Manish Bisht</author>
+    <version>0.0.1</version>
+    <namespace>ImageViewer</namespace>
+    <category>other</category>
+    <dependencies>
+        <owncloud min-version="8.1" />
+    </dependencies>
+</info>
